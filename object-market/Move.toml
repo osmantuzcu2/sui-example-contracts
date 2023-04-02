@@ -1,0 +1,13 @@
+[package]
+name = "dkmarketplace"
+version = "0.1.0"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
+
+[addresses]
+object_market = "0x0"
+std =  "0x1"
+sui =  "0x2"
+# TODO: replace real beneficiary
+beneficiary = "0xe46df691e69d7a60a42573de93a28bc5e430b358"
